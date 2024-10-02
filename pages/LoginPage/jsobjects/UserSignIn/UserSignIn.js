@@ -31,13 +31,6 @@ export default {
 
   // Verify if the access token has expired
   verifyAccessTokenExpired() {
-    console.log(
-      "time left",
-      (new Date(appsmith.store.authAccessTokenExp).getTime() -
-        new Date().getTime()) /
-        (1000 * 60),
-      "mins",
-    );
     return (
       new Date().getTime() >
       new Date(appsmith.store.authAccessTokenExp).getTime()
@@ -51,7 +44,6 @@ export default {
     const refreshToken = RefreshTokenApi.data;
     if (refreshToken) {
       // update the Appsmith store with the new access and refresh tokens
-      console.log("Token: " + refreshToken.accessToken);
       this.storeToken(refreshToken.accessToken, refreshToken.refreshToken);
     } else {
       console.error("Failed to refresh access token");
