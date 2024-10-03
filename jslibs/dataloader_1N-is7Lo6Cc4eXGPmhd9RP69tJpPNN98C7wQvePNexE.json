@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "dataloader"
+  ],
+  "defs": "{\"!name\":\"LIB/dataloader\",\"dataloader\":{\"!type\":\"fn()\",\"prototype\":{\"load\":{\"!type\":\"fn()\",\"prototype\":{}},\"loadMany\":{\"!type\":\"fn()\",\"prototype\":{}},\"clear\":{\"!type\":\"fn()\",\"prototype\":{}},\"clearAll\":{\"!type\":\"fn()\",\"prototype\":{}},\"prime\":{\"!type\":\"fn()\",\"prototype\":{}}}}}",
+  "name": "dataloader",
+  "uidString": "dataloader_https://cdn.jsdelivr.net/npm/dataloader@2.2.2/+esm",
+  "url": "https://cdn.jsdelivr.net/npm/dataloader@2.2.2/+esm",
+  "version": "2.2.2"
+}
