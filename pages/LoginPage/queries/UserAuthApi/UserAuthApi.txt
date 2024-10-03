@@ -1,1 +1,1 @@
-{{ {email: EmailInput.text, password: PasswordInput.text }}}
+{{ {email: email.text, password: password.text }}}

@@ -1,6 +1,7 @@
 export default {
   // Generate a new access token by calling the authorization API
-  async generateAccessToken() {
+  async generateAccessToken(params) {
+		console.log('generateAccessToken with params', params, this);
     await UserAuthApi.run();
     const generatedToken = UserAuthApi.data;
     if (generatedToken)

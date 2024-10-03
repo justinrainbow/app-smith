@@ -1,6 +1,6 @@
 export default {
-	async signIn() {
-		await UserSignIn.generateAccessToken();
+	async signIn(params) {
+		await UserSignIn.generateAccessToken(params);
 		
 		await SignedApi.run();
 		

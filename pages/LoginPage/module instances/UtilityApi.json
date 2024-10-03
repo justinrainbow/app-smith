@@ -1,0 +1,25 @@
+{
+  "gitSyncId": "66fd9d639dd02a332b3395ec_a6c58f43-47d3-4310-8cae-4f1c6264afaf",
+  "id": "LoginPage_UtilityApi",
+  "moduleUUID": "e7750c2a-b4cb-4bfe-b0fb-0ac641ee177e",
+  "packageUUID": "98356e23-ea03-4cbf-b3d6-8833f03e443e",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "input1": "{{ appsmith.store.authAccessToken }}"
+    },
+    "moduleInputs": {
+      "wsqujfqtvk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "wsqujfqtvk",
+        "label": "input1",
+        "propertyName": "inputs.input1"
+      }
+    },
+    "name": "UtilityApi",
+    "pageId": "LoginPage",
+    "version": "0.0.1"
+  }
+}
