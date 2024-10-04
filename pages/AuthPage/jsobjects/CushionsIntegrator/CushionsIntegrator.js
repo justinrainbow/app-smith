@@ -8,7 +8,10 @@ export default {
 		try {
 			if (this.isAuthenticationRequired(loginAs)) {
 				console.log('Authenticating as', loginAs);
-				await this.loginAsUser(loginAs);
+				await this.loginAsUser(loginAs).catch((error) => {
+					console.error('loginAsUser', error);
+					return Promise.resolve(true);
+				});
 			}
 
 			if (appsmith.mode === 'VIEW' || appsmith.mode === 'PUBLISHED') {
