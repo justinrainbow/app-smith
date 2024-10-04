@@ -7,6 +7,7 @@
   "unpublishedModuleInstance": {
     "contextType": "PAGE",
     "inputs": {
+      "assumeUser": "[]",
       "generateAccessToken": "[]",
       "getAccessToken": "[]",
       "getTokenExpiry": "[]",
@@ -28,6 +29,13 @@
         "id": "gkizqkwplr",
         "label": "storeToken",
         "propertyName": "inputs.storeToken"
+      },
+      "omfjwangyx": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "omfjwangyx",
+        "label": "assumeUser",
+        "propertyName": "inputs.assumeUser"
       },
       "ptdrwbyktb": {
         "controlType": "INPUT_TEXT",
@@ -60,6 +68,6 @@
     },
     "name": "LoginAuth",
     "pageId": "LoginPage",
-    "version": "0.0.6"
+    "version": "0.0.9"
   }
 }
