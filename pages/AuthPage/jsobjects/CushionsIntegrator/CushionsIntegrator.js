@@ -7,6 +7,7 @@ export default {
 
 		try {
 			if (this.isAuthenticationRequired(loginAs)) {
+				console.log('Authenticating as', loginAs);
 				await this.loginAsUser(loginAs);
 			}
 
@@ -21,11 +22,11 @@ export default {
 	},
 
 	isAuthenticationRequired(loginAs) {
-		return true;
+		return AuthApi.verifyAccessTokenExpired();
 	},
 
 	async loginAsUser(email, password) {
-
+		await AuthApi.generateAccessToken({ email, password });
 	},
 
 	getQueryParam(param, defaultValue) {

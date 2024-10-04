@@ -1,0 +1,65 @@
+{
+  "gitSyncId": "67006193f8dd8311364bdf2e_60ee3e86-9ef6-4dfb-8e70-2f23844ec94c",
+  "id": "AuthPage_AuthApi",
+  "moduleUUID": "225a2ae1-5468-41df-8f1c-880f9f1917a2",
+  "packageUUID": "dede0a31-88f0-4dad-bc38-e072c95fe9ce",
+  "type": "JS_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "generateAccessToken": "[]",
+      "getAccessToken": "[]",
+      "getTokenExpiry": "[]",
+      "refreshAccessToken": "[]",
+      "storeToken": "[]",
+      "verifyAccessTokenExpired": "[]"
+    },
+    "moduleInputs": {
+      "erxviwyqmr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "erxviwyqmr",
+        "label": "generateAccessToken",
+        "propertyName": "inputs.generateAccessToken"
+      },
+      "gkizqkwplr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "gkizqkwplr",
+        "label": "storeToken",
+        "propertyName": "inputs.storeToken"
+      },
+      "ptdrwbyktb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "ptdrwbyktb",
+        "label": "getTokenExpiry",
+        "propertyName": "inputs.getTokenExpiry"
+      },
+      "qytkjilhho": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "qytkjilhho",
+        "label": "refreshAccessToken",
+        "propertyName": "inputs.refreshAccessToken"
+      },
+      "rtvbmybklk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "rtvbmybklk",
+        "label": "verifyAccessTokenExpired",
+        "propertyName": "inputs.verifyAccessTokenExpired"
+      },
+      "vwftatpbsa": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "[]",
+        "id": "vwftatpbsa",
+        "label": "getAccessToken",
+        "propertyName": "inputs.getAccessToken"
+      }
+    },
+    "name": "AuthApi",
+    "pageId": "AuthPage",
+    "version": "0.0.6"
+  }
+}

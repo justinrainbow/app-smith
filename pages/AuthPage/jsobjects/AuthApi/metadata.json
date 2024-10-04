@@ -1,0 +1,14 @@
+{
+  "gitSyncId": "67006193f8dd8311364bdf2e_0b257973-53e2-40e9-b4d1-73ae784c195b",
+  "id": "AuthPage__$AuthApi$_UserAuth",
+  "isPublic": true,
+  "moduleInstanceId": "AuthPage_AuthApi",
+  "rootModuleInstanceId": "AuthPage_AuthApi",
+  "unpublishedCollection": {
+    "contextType": "PAGE",
+    "name": "_$AuthApi$_UserAuth",
+    "pageId": "AuthPage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS"
+  }
+}
