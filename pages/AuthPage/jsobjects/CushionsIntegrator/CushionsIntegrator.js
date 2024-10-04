@@ -10,11 +10,10 @@ export default {
 				await this.loginAsUser(loginAs);
 			}
 
-			console.log('Mode is', appsmith.mode);
-			if (appsmith.mode === 'VIEW') {
+			if (appsmith.mode === 'VIEW' || appsmith.mode === 'PUBLISHED') {
 				navigateTo(redirectTo);
 			} else {
-				console.log('Skipping redirect to...', redirectTo);
+				console.log('Skipping redirect to...', redirectTo, 'because mode is', appsmith.mode, 'and not "VIEW" or "PUBLISHED"');
 			}
 		} catch (error) {
 			console.error('Error during init', error);
