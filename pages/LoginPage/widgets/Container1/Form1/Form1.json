@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 32,
+  "bottomRow": 39,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -83,7 +83,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "shouldScrollContents": true,
-  "topRow": 6,
+  "topRow": 13,
   "type": "FORM_WIDGET",
   "widgetId": "poe3ejgp1i",
   "widgetName": "Form1"

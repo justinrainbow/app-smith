@@ -1,9 +1,8 @@
 export default {
-	async signIn(params) {
-		await UserSignIn.generateAccessToken(params);
-		
-		await SignedApi.run();
-		
-		console.log(SignedApi.data);
+	async login(params) {
+		console.log('LoginForm', params);
+		await LoginAuth.generateAccessToken(params);
+
+		navigateTo('Dashboard');
 	}
 }

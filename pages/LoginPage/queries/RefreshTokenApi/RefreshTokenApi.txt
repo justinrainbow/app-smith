@@ -1,1 +1,1 @@
-{{ { token: appsmith.store.authRefreshToken }}}
+{{ { token: appsmith.store.authRefreshToken } }}
