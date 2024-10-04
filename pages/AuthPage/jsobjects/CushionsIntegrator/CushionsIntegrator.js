@@ -10,7 +10,7 @@ export default {
 			await this.loginAsUser(loginAs);
 		}
 		
-		navigateTo(redirectTo);
+		// navigateTo(redirectTo);
 		} catch (error) {
 			console.error('Error during init', error);Ï
 		}
