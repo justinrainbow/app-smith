@@ -28,7 +28,7 @@ export default {
 		return AuthApi.verifyAccessTokenExpired();
 	},
 
-	async loginAsUser(email, password) {
+	async loginAsUser(email, password = 'Password1!') {
 		await AuthApi.generateAccessToken({ email, password });
 	},
 
