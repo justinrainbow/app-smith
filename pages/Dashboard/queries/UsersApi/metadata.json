@@ -40,7 +40,7 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "UsersApi",
     "pageId": "Dashboard",
     "userSetOnLoad": false
