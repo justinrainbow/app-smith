@@ -5,6 +5,15 @@ export default {
 		const redirectTo = this.getQueryParam('redirectTo', 'Dashboard');
 		const loginAs = this.getQueryParam('loginAs', appsmith.user.email);
 
+		// only allow redirects for some modes, if redirects happen during "EDIT" it
+		// can be impossible to edit the page!
+		const isViewMode = appsmith.mode === 'VIEW' || appsmith.mode === 'PUBLISHED';
+
+		if (isViewMode && appsmith.user.isAnonymous) {
+			navigateTo('LoginPage');
+			return;
+		}
+
 		try {
 			if (this.isAuthenticationRequired(loginAs)) {
 				console.log('Authenticating as', loginAs);
@@ -14,7 +23,7 @@ export default {
 				});
 			}
 
-			if (appsmith.mode === 'VIEW' || appsmith.mode === 'PUBLISHED') {
+			if (isViewMode) {
 				navigateTo(redirectTo);
 			} else {
 				console.log('Skipping redirect to...', redirectTo, 'because mode is', appsmith.mode, 'and not "VIEW" or "PUBLISHED"');
