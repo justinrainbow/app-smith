@@ -31,14 +31,18 @@
   "pages": [
     {
       "id": "LoginPage",
-      "isDefault": true
-    },
-    {
-      "id": "Dashboard",
       "isDefault": false
     },
     {
+      "id": "Dashboard",
+      "isDefault": true
+    },
+    {
       "id": "AuthPage",
+      "isDefault": false
+    },
+    {
+      "id": "Users",
       "isDefault": false
     }
   ],
