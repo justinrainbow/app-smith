@@ -39,6 +39,12 @@ export default {
 
 	async loginAsUser(email, password = 'Password1!') {
 		await AuthApi.generateAccessToken({ email, password });
+		
+		const payload = jsonwebtoken.decode(appsmith.store.authAccessToken);
+		
+		if (payload && payload.exp > 0) {
+			storeValue('authAccessTokenExp', payload.exp);
+		}
 	},
 
 	getQueryParam(param, defaultValue) {
