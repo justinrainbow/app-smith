@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 20,
   "shouldTruncate": false,
-  "text": "<a target=\"_blank\" href=\"https://couchsurfingorg.atlassian.net/jira/\">Jira</a>",
+  "text": "<a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://couchsurfingorg.atlassian.net/jira/\">Jira</a>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 23,
