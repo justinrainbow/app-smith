@@ -8,14 +8,14 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "inline",
-      "orientation": "top",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -27,7 +27,7 @@
   "collapseInvisibleWidgets": true,
   "color": "#F3F1C7",
   "evaluationVersion": 2,
-  "icon": "dog",
+  "icon": "bar-graph",
   "pages": [
     {
       "id": "LoginPage",
@@ -54,14 +54,14 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "inline",
-      "orientation": "top",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
