@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "index_min_js"
+  ],
+  "defs": "{\"!name\":\"LIB/index_min_js\",\"index_min_js\":{\"CompactEncrypt\":{\"!type\":\"fn()\",\"prototype\":{}},\"CompactSign\":{\"!type\":\"fn()\",\"prototype\":{}},\"EmbeddedJWK\":{\"!type\":\"fn()\"},\"EncryptJWT\":{\"!type\":\"fn()\",\"prototype\":{}},\"FlattenedEncrypt\":{\"!type\":\"fn()\",\"prototype\":{}},\"FlattenedSign\":{\"!type\":\"fn()\",\"prototype\":{}},\"GeneralEncrypt\":{\"!type\":\"fn()\",\"prototype\":{}},\"GeneralSign\":{\"!type\":\"fn()\",\"prototype\":{}},\"SignJWT\":{\"!type\":\"fn()\",\"prototype\":{}},\"UnsecuredJWT\":{\"!type\":\"fn()\",\"prototype\":{},\"decode\":{}},\"base64url\":{\"decode\":{},\"encode\":{}},\"calculateJwkThumbprint\":{},\"calculateJwkThumbprintUri\":{},\"compactDecrypt\":{},\"compactVerify\":{},\"createLocalJWKSet\":{},\"createRemoteJWKSet\":{},\"cryptoRuntime\":{},\"decodeJwt\":{},\"decodeProtectedHeader\":{},\"errors\":{},\"experimental_jwksCache\":{},\"exportJWK\":{},\"exportPKCS8\":{},\"exportSPKI\":{},\"flattenedDecrypt\":{},\"flattenedVerify\":{},\"generalDecrypt\":{},\"generalVerify\":{},\"generateKeyPair\":{},\"generateSecret\":{},\"importJWK\":{},\"importPKCS8\":{},\"importSPKI\":{},\"importX509\":{},\"jwksCache\":{},\"jwtDecrypt\":{},\"jwtVerify\":{}}}",
+  "name": "index_min_js",
+  "uidString": "index_min_js_https://cdn.jsdelivr.net/npm/jose@5.9.4/dist/browser/index.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/jose@5.9.4/dist/browser/index.min.js",
+  "version": "5.9.4"
+}
