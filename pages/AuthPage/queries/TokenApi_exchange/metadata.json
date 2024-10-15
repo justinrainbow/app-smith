@@ -21,7 +21,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "exchange",
+      "path": "api/oauth2/tokens/exchange",
       "pluginSpecifiedTemplates": [
         {
           "value": true
