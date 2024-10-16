@@ -30,10 +30,6 @@
   "icon": "bar-graph",
   "pages": [
     {
-      "id": "LoginPage",
-      "isDefault": false
-    },
-    {
       "id": "Dashboard",
       "isDefault": true
     },
