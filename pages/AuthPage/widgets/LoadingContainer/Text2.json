@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 9,
   "disableLink": true,
   "dynamicBindingPathList": [
     {
@@ -44,7 +44,7 @@
   "text": "Connecting to <i>cushions</i>...",
   "textAlign": "CENTER",
   "textColor": "#71717a",
-  "topRow": 4,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
