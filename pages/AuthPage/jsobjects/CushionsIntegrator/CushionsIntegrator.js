@@ -1,6 +1,6 @@
 export default {
 	async initCushions() {
-		console.log('Initializing cushions...');
+		console.log('Initializing cushions...', appsmith.user);
 
 		const redirectTo = this.getQueryParam('redirectTo', 'Dashboard');
 		const loginAs = this.getQueryParam('loginAs', appsmith.user.email);
@@ -10,7 +10,7 @@ export default {
 		const isViewMode = appsmith.mode === 'VIEW' || appsmith.mode === 'PUBLISHED';
 
 		if (isViewMode && appsmith.user.isAnonymous) {
-			navigateTo('LoginPage');
+			// navigateTo('LoginPage');
 			return;
 		}
 
